@@ -1,0 +1,72 @@
+.mainSlider {
+    position: relative;
+    @include clearfix;
+    height: calc(100vh - 35px);
+
+    &-slide {
+        //background-color: rgba(255,255,255,0.2);
+        position: relative;
+        height: 100%;
+    }
+
+    &-backgroundImg {
+        position: absolute;
+        top: 0;
+        #{$left}: 0;
+        width: 100%;
+        z-index: -1;
+        height: 100%;
+    }
+
+    &-content {
+        @include breakpoint(mid) {
+            width: rem(893);
+        }
+    }
+
+    &-title {
+        margin-top: 107px;
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 55px;
+        color: $text-color;
+    }
+
+    &-description {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    &-bookTrip {
+        color: $link-color;
+        width: rem(215);
+        font-size: rem(18);
+        line-height: rem(32);
+    }
+
+    &-goDown {
+        color: $link-color;
+        background-color: #D33497;
+        width: rem(70);
+        height: rem(70);
+        text-align: center;
+        line-height: rem(70);
+        position: absolute;
+        bottom: rem(-35);
+        border-radius: 50%;
+        font-size: 24px;
+        #{$right}: calc(50vw - 25px);
+
+        @include breakpoint(mid) {
+            #{$right}: rem(350);
+        }
+    }
+
+    &--logo {
+        margin-top: 20px;
+
+        @include breakpoint(mid) {
+            margin-top: 40vh;
+        }
+    }
+}

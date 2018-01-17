@@ -1,0 +1,73 @@
+ a {
+     cursor: pointer;
+     display: inline-block;
+ }
+
+//  .nav {
+//      padding-#{$right}: 0;
+//      padding-#{$left}: initial;
+//      list-style: none;
+//  }
+
+ .ellipsis {
+     text-overflow: ellipsis;
+     /* Required for text-overflow to do anything */
+     white-space: nowrap;
+     overflow: hidden;
+ }
+
+ .is-flipped {
+     -moz-transform: scaleX(-1);
+     -o-transform: scaleX(-1);
+     -webkit-transform: scaleX(-1);
+     transform: scaleX(-1);
+     filter: FlipH;
+     -ms-filter: "FlipH";
+ }
+
+ li {
+     text-align:#{$left};
+ }
+
+
+ img {
+     text-align: center;
+ }
+
+ 
+.block {
+    display: block !important;
+}
+
+.inline-block {
+    display: inline-block !important;
+}
+
+.fileUpload {
+    &-btn {
+        line-height: rem(30);
+        padding-left: rem(20);
+        padding-right: rem(20);
+        width: auto;
+    }
+    &-src {
+        word-wrap: break-word;
+    }
+}
+
+strong,
+.strong{
+    font-weight: bold !important;
+}
+
+.full-width{
+    width: 100% !important;
+}
+
+.margin-left-10{
+    margin-#{$left}: 10px;
+}
+
+.margin-right-10{
+    margin-#{$right}: 10px;
+}

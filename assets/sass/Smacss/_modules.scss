@@ -1,0 +1,17 @@
+/*
+* ===> Modules
+* Author  :: Ahmed elbaz
+* Data    :: 24-9-2017
+* LinkedIn:: in/elbazz
+* Mail    :: ahmed.elbazz.2010@gmail.com
+*/
+// example import :: @import "../Modules/_card";
+// --------------------------------------------------
+//master page
+ @import "../Modules/_header";
+// @import "../Modules/_breadcrumb";
+ @import "../Modules/_menu";
+
+//homepage
+ @import "../Modules/_mainSlider";
+ @import "../Modules/_subSlider";

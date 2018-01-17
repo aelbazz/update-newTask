@@ -1,0 +1,89 @@
+// $text-color : $primary-base;
+// $table-base: $header-text;
+.userTable {
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    margin-bottom: rem(20);
+    margin-top: rem(20);
+    background-color: $body-bg;
+
+    & > thead,
+    &-header {
+        color: $table-base;
+        font-size: rem(14);
+        font-weight: bold;
+        >tr>th {
+            text-align: center;
+            padding: rem(10);
+        }
+    }
+
+    &>tbody,
+    &-body { 
+        >tr,
+        .userTable-row {
+            &:nth-of-type(odd) {
+                background-color: $blocks-bg;
+            }
+            > td {
+                padding: rem(7);
+                font-size: rem(16);
+                color: $text2-color;
+                a{
+                    color: $text-color;
+                }
+            }
+
+        }
+    }
+}
+
+.table{
+    &-maxWidth{
+        max-width: 100%;
+        overflow: auto;
+    } 
+}
+
+/*.userTable {
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    margin-bottom: rem(20);
+    margin-top: rem(20);
+    background-color: $body-bg;
+
+    & > thead,
+    &-header {
+        border-left: rem(2) solid $table-base;
+        border-right: rem(2) solid $table-base;
+        background-color: $table-base;
+        color: $link-color;
+        font-size: rem(14);
+        font-weight: bold;
+        >tr>th {
+            text-align: center;
+            padding: rem(10);
+        }
+    }
+
+    &>tbody,
+    &-body {
+        border: rem(2) solid $table-base;
+        border-top: 0;
+        >tr,
+        .userTable-row {
+            &:nth-of-type(odd) {
+                background-color: $blocks-bg;
+            }
+            > td {
+                padding: rem(7);
+                color: $text2-color;
+            }
+
+        }
+    }
+}*/

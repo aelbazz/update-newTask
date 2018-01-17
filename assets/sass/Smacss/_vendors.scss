@@ -1,0 +1,29 @@
+// * ===> Vendors
+//* Author  :: Ahmed elbaz
+//* Data    :: 24-9-2017
+//* LinkedIn:: in/elbazz
+//* Mail    :: ahmed.elbazz.2010@gmail.com
+// 
+// example import :: @import "../Vendors/_card";
+// --------------------------------------------------
+
+// =====>  Bootstrap
+@import "../Vendors/_bootstrap";
+
+// rtl bootstrap if lang == ar that will complied 
+@import "../Vendors/_rtl.bootstrap"; 
+
+// =====>  Font-awesome
+@import "../Vendors/_font-awesome";
+
+// =====>  Swiper
+@import "../Vendors/_swiper";
+
+// =====>  Slick
+// @import "../Vendors/_slick";
+
+// =====>  Hover
+// @import "../Vendors/_hover";
+
+// =====>  Alertify + js
+// @import "../Vendors/_alertify";

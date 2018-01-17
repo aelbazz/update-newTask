@@ -1,0 +1,14 @@
+@function rem($size) {
+  $remSize: $size / 16;
+  @return $remSize * 1rem;
+}
+
+@function em($finalSize, $inheritSize) {
+  $emSize: $finalSize / $inheritSize;
+  @return $emSize * 1em;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: rem($size);
+}

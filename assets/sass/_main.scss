@@ -1,0 +1,22 @@
+/*
+* custom branding
+* Author  :: Ahmed elbaz
+* Version :: 1.0.2
+* LinkedIn:: in/elbazz
+* Mail    :: ahmed.elbazz.2010@gmail.com
+*/
+// ======>  main sass key 
+    // active the next variable if you want arabic direction
+    //$lang : ar; 
+
+//-----------------------------------------------  
+// ======>  variables and mixins
+@import "Base/_variables";
+@import "Base/_mixins";
+
+// ======>  Smacss Structure 
+@import "Smacss/_base";
+@import "Smacss/_vendors";
+//@import "Smacss/_layout";
+@import "Smacss/_pages";
+@import "Smacss/_modules";

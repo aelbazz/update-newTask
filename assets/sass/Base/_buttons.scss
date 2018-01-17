@@ -1,0 +1,42 @@
+$primary-bg:#ffb839;
+$primary-txt:$text2-color;
+ 
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    border-radius: .25rem;
+    @include user-select(none);
+    @include trans(all, .15s, ease-in-out);
+
+    &:before{
+        border-radius: inherit;
+    }
+
+    &-primary {
+        color: $primary-txt;        
+        background: -moz-linear-gradient(90deg, $primary-darker 0, $primary-base 100%);/* FF3.6+ */
+        background: -webkit-gradient(linear, 90deg, color-stop(0, 1301FE), color-stop(100%, F4F60C));/* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(90deg, $primary-darker 0, $primary-base 100%);/* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(90deg, $primary-darker 0, $primary-base 100%);/* Opera 11.10+ */
+        background: -ms-linear-gradient(90deg, $primary-darker 0, $primary-base 100%);/* IE10+ */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$primary-darker', endColorstr='$primary-base', GradientType='1'); /* for IE */
+        background: linear-gradient(90deg, $primary-darker 0, $primary-base 100%);/* W3C */
+
+        &:hover{
+        }
+        
+        
+    }
+
+    
+
+    }
+
+    
